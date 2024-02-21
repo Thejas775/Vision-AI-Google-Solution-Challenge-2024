@@ -43,8 +43,7 @@ This project demonstrates a multimodal AI system that integrates speech recognit
 **Usage:**
 
 1. Install required libraries using `pip install -r requirements.txt`.
-2. Place your image database in the `images` folder.
-3. Substitute `Your Gemini api key` with your actual Gemini API key. 
-4. Run `python main.py`.
-
+2. Substitute `Your Gemini api key` with your actual Gemini API key. 
+3. Run `python main.py`.
+4. If you want to use Facial recognition ,put your image database in the `images` folder.
 
