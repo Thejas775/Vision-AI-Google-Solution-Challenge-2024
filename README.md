@@ -2,10 +2,14 @@
 While sighted individuals can directly experience the world’s beauty, those with visual impairments often depend on others to narrate their environment. But what if their loved ones aren’t present? To tackle this, we’re creating a solution that acts as a perpetual companion for the visually impaired. Similar to a friend, our solution will verbally describe everything to them, and they can inquire about any aspect of the image. This ensures they never feel isolated or unsupported. This is the core of our project for the upcoming hackathon, where we aim to profoundly impact the lives of visually impaired individuals.
 
 This project demonstrates a multimodal AI system that integrates speech recognition, facial recognition, image compression, and text-to-speech functionalities.
+**Setup: **
+* Install any OS in Raspberry Pi.
+* Make a virtual environment for better package handling
+* Install all the requirements
+* Run the python file in the virtual environment.
 
 **Requirements:**
 
-* Python 3.x
 * deepface
 * Pillow
 * opencv-python
@@ -23,13 +27,13 @@ This project demonstrates a multimodal AI system that integrates speech recognit
 
 **Code Structure:**
 
-* `record_audio.py`: Records audio and converts it to text.
-* `find_match.py`: Performs facial recognition using DeepFace.
-* `text_to_speech.py`: Converts text to audio using gTTS.
-* `call_api_with_gemini.py`: Calls Google's GenerativeAI model to generate text and images.
-* `compress_image.py`: Compresses images to reduce size.
-* `capture_image.py`: Captures image from the camera and compresses it.
-* `main.py`: Runs the main program loop and interacts with other modules.
+* `record_audio`: Records audio and converts it to text.
+* `find_match`: Performs facial recognition using DeepFace.
+* `text_to_speech`: Converts text to audio using gTTS.
+* `call_api_with_gemini`: Calls Google's GenerativeAI model to generate text and images.
+* `compress_image`: Compresses images to reduce size.
+* `capture_image`: Captures image from the camera and compresses it.
+* `main`: Runs the main program loop and interacts with other modules.
 
 **Usage:**
 
@@ -38,10 +42,4 @@ This project demonstrates a multimodal AI system that integrates speech recognit
 3. Run `python main.py`.
 4. The program will guide you through recording audio, facial recognition, and interacting with the API.
 
-**Additional Notes:**
 
-* This is a basic implementation and can be further customized and extended.
-* Consider ethical implications and responsible use of facial recognition technology.
-* Ensure proper API key and authentication for the GenerativeAI model.
-
-**I hope this README provides a clear overview of the project. Feel free to reach out if you have any questions!**
