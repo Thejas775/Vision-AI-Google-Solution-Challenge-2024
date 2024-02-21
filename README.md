@@ -36,8 +36,8 @@ This project demonstrates a multimodal AI system that integrates speech recognit
 * `find_match`: Performs facial recognition using DeepFace.
 * `text_to_speech`: Converts text to audio using gTTS.
 * `call_api_with_gemini`: Calls Google's GenerativeAI model to generate text and images.
+* `capture_image`: Captures image from the camera.
 * `compress_image`: Compresses images to reduce size.
-* `capture_image`: Captures image from the camera and compresses it.
 * `main`: Runs the main program loop and interacts with other modules.
 
 **Usage:**
