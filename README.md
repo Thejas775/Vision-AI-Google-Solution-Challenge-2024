@@ -42,6 +42,5 @@ This project demonstrates a multimodal AI system that integrates speech recognit
 1. Install required libraries using `pip install -r requirements.txt`.
 2. Place your image database in the `images` folder.
 3. Run `python main.py`.
-4. The program will guide you through recording audio, facial recognition, and interacting with the API.
 
 
