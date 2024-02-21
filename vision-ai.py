@@ -60,7 +60,7 @@ def text_to_speech(text):
 
 def call_api_with_gemini(prompt):
 
-    genai.configure(api_key="AIzaSyBvHBkivowkmhv6vfbljLGeNXAUJTcMRI8")
+    genai.configure(api_key="Gemini-API-Key")
 
     # Set up the model
     generation_config = {
