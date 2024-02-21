@@ -2,8 +2,10 @@
 While sighted individuals can directly experience the world’s beauty, those with visual impairments often depend on others to narrate their environment. But what if their loved ones aren’t present? To tackle this, we’re creating a solution that acts as a perpetual companion for the visually impaired. Similar to a friend, our solution will verbally describe everything to them, and they can inquire about any aspect of the image. This ensures they never feel isolated or unsupported. This is the core of our project for the upcoming hackathon, where we aim to profoundly impact the lives of visually impaired individuals.
 
 This project demonstrates a multimodal AI system that integrates speech recognition, facial recognition, image compression, and text-to-speech functionalities.
-**Setup: **
+
+**Setup:**
 * Install any OS in Raspberry Pi.
+* Attach USB microphone and Raspberry Pi camera
 * Make a virtual environment for better package handling
 * Install all the requirements
 * Run the python file in the virtual environment.
